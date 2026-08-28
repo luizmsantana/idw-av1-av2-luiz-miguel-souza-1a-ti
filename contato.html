@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bella Massa - Avaliação</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                🍕 Bella Massa
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Início
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="salgadas.html">
+                            Salgadas
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="doces.html">
+                            Doces
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="bebidas.html">
+                            Bebidas
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contato.html">
+                            Avalie
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="titulo">
+
+        <div class="container text-center">
+
+            <span class="subtitulo-claro">
+                BELLA MASSA
+            </span>
+
+            <h1>
+                Avalie sua experiência
+            </h1>
+
+            <p>
+                Sua opinião é muito importante para nós.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="container py-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <div class="formulario">
+
+                    <div class="text-center mb-4">
+
+                        <span class="subtitulo">
+                            CONTE PARA NÓS
+                        </span>
+
+                        <h2>
+                            Você gostou da Bella Massa?
+                        </h2>
+
+                        <p>
+                            Preencha o formulário abaixo e deixe sua opinião.
+                        </p>
+
+                    </div>
+
+                    <form>
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-3">
+
+                                <label for="nome" class="form-label">
+                                    Nome
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="nome"
+                                    name="nome"
+                                    placeholder="Digite seu nome"
+                                    required>
+
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+
+                                <label for="email" class="form-label">
+                                    E-mail
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    name="email"
+                                    placeholder="seuemail@email.com"
+                                    required>
+
+                            </div>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="pizza" class="form-label">
+                                Qual pizza você experimentou?
+                            </label>
+
+                            <select
+                                class="form-select"
+                                id="pizza"
+                                name="pizza"
+                                required>
+
+                                <option value="">
+                                    Selecione uma opção
+                                </option>
+
+                                <option>
+                                    Calabresa
+                                </option>
+
+                                <option>
+                                    Quatro Queijos
+                                </option>
+
+                                <option>
+                                    Margherita
+                                </option>
+
+                                <option>
+                                    Frango Catupiry
+                                </option>
+
+                                <option>
+                                    Pepperoni
+                                </option>
+
+                                <option>
+                                    Portuguesa
+                                </option>
+
+                                <option>
+                                    Pizza Doce
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="gostou" class="form-label">
+                                Você gostou da pizza?
+                            </label>
+
+                            <select
+                                class="form-select"
+                                id="gostou"
+                                name="gostou"
+                                required>
+
+                                <option value="">
+                                    Selecione uma opção
+                                </option>
+
+                                <option>
+                                    Sim, gostei muito!
+                                </option>
+
+                                <option>
+                                    Gostei.
+                                </option>
+
+                                <option>
+                                    Mais ou menos.
+                                </option>
+
+                                <option>
+                                    Não gostei.
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="nota" class="form-label">
+                                Qual nota você daria?
+                            </label>
+
+                            <select
+                                class="form-select"
+                                id="nota"
+                                name="nota"
+                                required>
+
+                                <option value="">
+                                    Escolha uma nota
+                                </option>
+
+                                <option>
+                                    ⭐⭐⭐⭐⭐ - Excelente
+                                </option>
+
+                                <option>
+                                    ⭐⭐⭐⭐ - Muito bom
+                                </option>
+
+                                <option>
+                                    ⭐⭐⭐ - Bom
+                                </option>
+
+                                <option>
+                                    ⭐⭐ - Regular
+                                </option>
+
+                                <option>
+                                    ⭐ - Ruim
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="visita" class="form-label">
+                                Data da visita
+                            </label>
+
+                            <input
+                                type="date"
+                                class="form-control"
+                                id="visita"
+                                name="visita">
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label for="comentario" class="form-label">
+                                Deixe seu comentário
+                            </label>
+
+                            <textarea
+                                class="form-control"
+                                id="comentario"
+                                name="comentario"
+                                rows="5"
+                                placeholder="Conte para nós o que você achou..."></textarea>
+
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="btn btn-principal w-100">
+
+                            🍕 Enviar avaliação
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="container text-center">
+
+        <h5>
+            🍕 Bella Massa Pizzaria
+        </h5>
+
+        <p>
+            Sabor artesanal para momentos especiais.
+        </p>
+
+        <small>
+            © 2026 Bella Massa - Projeto acadêmico
+        </small>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

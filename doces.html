@@ -1,287 +1,121 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Bella Massa - Pizzas Doces</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bella Massa - Pizzas Doces</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">Bella Massa</a>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-        <div class="container">
-
-            <a class="navbar-brand" href="index.html">
-                🍕 Bella Massa
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="menu">
-
-                <ul class="navbar-nav ms-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">
-                            Início
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="salgadas.html">
-                            Salgadas
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="doces.html">
-                            Doces
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="bebidas.html">
-                            Bebidas
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="contato.html">
-                            Avalie
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </nav>
-
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li><a class="nav-link" href="index.html">Início</a></li>
+<li><a class="nav-link" href="salgadas.html">Salgadas</a></li>
+<li><a class="nav-link active" href="doces.html">Doces</a></li>
+<li><a class="nav-link" href="bebidas.html">Bebidas</a></li>
+<li><a class="nav-link" href="contato.html">Avalie</a></li>
+</ul>
+</div>
+</div>
+</nav>
 </header>
 
 <main>
 
-    <section class="titulo">
+<section class="titulo">
+<div class="container text-center">
+<span class="subtitulo-claro">BELLA MASSA</span>
+<h1>Pizzas Doces</h1>
+<p>Para deixar sua refeição ainda mais gostosa.</p>
+</div>
+</section>
 
-        <div class="container text-center">
+<section class="container py-5">
+<div class="row g-4">
 
-            <span class="subtitulo-claro">
-                BELLA MASSA
-            </span>
+<div class="col-md-6 col-lg-3">
+<div class="card produto h-100">
+<img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="Pizza doce de chocolate">
+<div class="card-body">
+<span class="badge bg-danger">Mais pedida</span>
+<h3>Chocolate</h3>
+<p>Chocolate cremoso e raspas de chocolate.</p>
+<strong>R$ 39,90</strong>
+</div>
+</div>
+</div>
 
-            <h1>
-                Pizzas Doces
-            </h1>
+<div class="col-md-6 col-lg-3">
+<div class="card produto h-100">
+<img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="Pizza de chocolate com morango">
+<div class="card-body">
+<span class="badge bg-danger">Especial</span>
+<h3>Chocolate com Morango</h3>
+<p>Chocolate cremoso, morangos frescos e chocolate branco.</p>
+<strong>R$ 44,90</strong>
+</div>
+</div>
+</div>
 
-            <p>
-                Para deixar sua refeição ainda mais gostosa.
-            </p>
+<div class="col-md-6 col-lg-3">
+<div class="card produto h-100">
+<img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="Pizza doce de banana">
+<div class="card-body">
+<span class="badge bg-warning text-dark">Tradicional</span>
+<h3>Banana com Canela</h3>
+<p>Banana, açúcar, canela e leite condensado.</p>
+<strong>R$ 37,90</strong>
+</div>
+</div>
+</div>
 
-        </div>
+<div class="col-md-6 col-lg-3">
+<div class="card produto h-100">
+<img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="Pizza doce de queijo com goiabada">
+<div class="card-body">
+<span class="badge bg-success">Clássica</span>
+<h3>Romeu e Julieta</h3>
+<p>Queijo cremoso e goiabada.</p>
+<strong>R$ 38,90</strong>
+</div>
+</div>
+</div>
 
-    </section>
+</div>
+</section>
 
-    <section class="container py-5">
-
-        <div class="row g-4">
-
-            <div class="col-md-6 col-lg-3">
-
-                <div class="card produto h-100">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=700&q=80"
-                        class="card-img-top"
-                        alt="Pizza doce de chocolate">
-
-                    <div class="card-body">
-
-                        <span class="badge bg-danger">
-                            Mais pedida
-                        </span>
-
-                        <h3>
-                            Chocolate
-                        </h3>
-
-                        <p>
-                            Chocolate cremoso e raspas de chocolate.
-                        </p>
-
-                        <strong>
-                            R$ 39,90
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-
-                <div class="card produto h-100">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=700&q=80"
-                        class="card-img-top"
-                        alt="Pizza de chocolate com morango">
-
-                    <div class="card-body">
-
-                        <span class="badge bg-danger">
-                            Especial
-                        </span>
-
-                        <h3>
-                            Chocolate com Morango
-                        </h3>
-
-                        <p>
-                            Chocolate cremoso, morangos frescos
-                            e chocolate branco.
-                        </p>
-
-                        <strong>
-                            R$ 44,90
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-
-                <div class="card produto h-100">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80"
-                        class="card-img-top"
-                        alt="Pizza doce de banana">
-
-                    <div class="card-body">
-
-                        <span class="badge bg-warning text-dark">
-                            Tradicional
-                        </span>
-
-                        <h3>
-                            Banana com Canela
-                        </h3>
-
-                        <p>
-                            Banana, açúcar, canela e leite condensado.
-                        </p>
-
-                        <strong>
-                            R$ 37,90
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-
-                <div class="card produto h-100">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=700&q=80"
-                        class="card-img-top"
-                        alt="Pizza doce de queijo com goiabada">
-
-                    <div class="card-body">
-
-                        <span class="badge bg-success">
-                            Clássica
-                        </span>
-
-                        <h3>
-                            Romeu e Julieta
-                        </h3>
-
-                        <p>
-                            Queijo cremoso e goiabada.
-                        </p>
-
-                        <strong>
-                            R$ 38,90
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="promocao">
-
-        <div class="container text-center">
-
-            <h2>
-                Uma sobremesa diferente
-            </h2>
-
-            <p>
-                Experimente uma de nossas pizzas doces.
-            </p>
-
-            <a href="contato.html" class="btn btn-light">
-                Avaliar experiência
-            </a>
-
-        </div>
-
-    </section>
+<section class="promocao">
+<div class="container text-center">
+<h2>Uma sobremesa diferente</h2>
+<p>Experimente uma de nossas pizzas doces.</p>
+<a href="contato.html" class="btn btn-light">Avaliar experiência</a>
+</div>
+</section>
 
 </main>
 
 <footer>
-
-    <div class="container text-center">
-
-        <h5>
-            🍕 Bella Massa Pizzaria
-        </h5>
-
-        <p>
-            Sabor artesanal para momentos especiais.
-        </p>
-
-        <small>
-            © 2026 Bella Massa - Projeto acadêmico
-        </small>
-
-    </div>
-
+<div class="container text-center">
+<h5>Bella Massa Pizzaria</h5>
+<p>Sabor artesanal para momentos especiais.</p>
+<small>© 2026 Bella Massa - Projeto acadêmico</small>
+</div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
+```

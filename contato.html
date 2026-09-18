@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -14,13 +13,10 @@
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark">
 <div class="container">
+
 <a class="navbar-brand" href="index.html">Bella Massa</a>
 
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="menu">
+<div class="collapse navbar-collapse show" id="menu">
 <ul class="navbar-nav ms-auto">
 <li><a class="nav-link" href="index.html">Início</a></li>
 <li><a class="nav-link" href="salgadas.html">Salgadas</a></li>
@@ -29,6 +25,7 @@
 <li><a class="nav-link active" href="contato.html">Avalie</a></li>
 </ul>
 </div>
+
 </div>
 </nav>
 </header>
@@ -48,6 +45,7 @@
 <div class="col-lg-8">
 
 <div class="formulario">
+
 <div class="text-center mb-4">
 <span class="subtitulo">CONTE PARA NÓS</span>
 <h2>Você gostou da Bella Massa?</h2>
@@ -57,5 +55,53 @@
 <form>
 
 <div class="row">
-<div
-```
+<div class="col-md-6 mb-3">
+<label for="nome" class="form-label">Nome</label>
+<input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+</div>
+
+<div class="col-md-6 mb-3">
+<label for="email" class="form-label">E-mail</label>
+<input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+</div>
+</div>
+
+<div class="mb-3">
+<label for="nota" class="form-label">Nota</label>
+<select class="form-select" id="nota">
+<option selected>Escolha uma nota</option>
+<option>5 - Excelente</option>
+<option>4 - Muito bom</option>
+<option>3 - Bom</option>
+<option>2 - Regular</option>
+<option>1 - Ruim</option>
+</select>
+</div>
+
+<div class="mb-3">
+<label for="mensagem" class="form-label">Sua opinião</label>
+<textarea class="form-control" id="mensagem" rows="4" placeholder="Conte como foi sua experiência..."></textarea>
+</div>
+
+<div class="text-center">
+<button type="submit" class="btn btn-principal">Enviar avaliação</button>
+</div>
+
+</form>
+
+</div>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="container text-center">
+<h5>luiz.m</h5>
+
+</div>
+</footer>
+
+</body>
+</html>
